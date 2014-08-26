@@ -1,12 +1,37 @@
 
-#circle {
+#universe {
+  background-color: black;
+}
+
+.planet, .star {
+  border-radius: 50%;
+  position: absolute;
+}
+
+#sun {
+  height: 3em;
+  width: 3em;
+  color: yellow;
+  background-color: yellow;
+  top: 30em;
+  left: 30em;
+}
+
+#earth {
   height: 1em;
   width: 1em;
   color: blue;
-  position: absolute;
-  top: 100em;
-  left: 100em;
+  top: 30em;
+  left: 30em;
   background-color: blue;
-border-radius: 50%;
+}
+
+#venus {
+  height: .9em;
+  width: .9em;
+  color: yellow;
+  top: 30em;
+  left: 30em;
+  background-color: yellow;
 }
 
